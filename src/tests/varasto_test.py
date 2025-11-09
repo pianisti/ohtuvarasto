@@ -61,4 +61,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_ota_liikaa_tavaraa(self):
         self.varasto.ota_varastosta(15)
-        self.assertAlmostEqual(self.varasto.saldo, 0)
+        self.assertAlmostEqual(self.varasto.saldo, 2)
